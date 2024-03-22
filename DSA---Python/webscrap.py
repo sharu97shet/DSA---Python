@@ -44,6 +44,10 @@ if response.status_code==200:
 
 
 
+import array
+
+
+
 
 
 
@@ -73,5 +77,5 @@ if response.status_code==200:
     #     print("Title:", title)
     #     print("Link:", link)
     #     print()
-else:
-    print("Failed to retrieve the webpage.")
+# else:
+#     print("Failed to retrieve the webpage.")
